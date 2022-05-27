@@ -1,0 +1,7 @@
+.img-slider img:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid lightsteelblue;
+    transform: rotate(360deg);
+    transition: transform 3s ease;
+}

@@ -46,11 +46,12 @@ import photos44 from '../Image/photos44.jpg'
 import photos45 from '../Image/photos45.jpg'
 import photos46 from '../Image/photos46.jpg'
 import photos47 from '../Image/photos47.jpg'
+import './photos.css'
  
 
 const Photos = () => {
     return (
-        <div class=" grid lg:grid-cols-3 sm:grid-cols-1 bg-base-100 shadow-2xl">
+        <div class=" img-slider grid lg:grid-cols-3 sm:grid-cols-1 bg-base-100 shadow-2xl">
             <figure class="px-10 pt-10">
                 <img src= {photos1} alt="Shoes" class="rounded-xl" />
             </figure>
@@ -59,6 +60,9 @@ const Photos = () => {
             </figure>
             <figure class="px-10 pt-10">
                 <img src= {photos3} alt="Shoes" class="rounded-xl" />
+            </figure>
+            <figure class="px-10 pt-10">
+                <img src= {photos46} alt="Shoes" class="rounded-xl" />
             </figure>
             <figure class="px-10 pt-10">
                 <img src= {photos4} alt="Shoes" class="rounded-xl" />
@@ -187,9 +191,7 @@ const Photos = () => {
             <figure class="px-10 pt-10">
                 <img src= {photos45} alt="Shoes" class="rounded-xl" />
             </figure>
-            <figure class="px-10 pt-10">
-                <img src= {photos46} alt="Shoes" class="rounded-xl" />
-            </figure>
+           
             <figure class="px-10 pt-10">
                 <img src= {photos47} alt="Shoes" class="rounded-xl" />
             </figure>
