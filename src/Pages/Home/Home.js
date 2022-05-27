@@ -1,8 +1,6 @@
 import React from 'react';
 import Banner from './Banner';
 import ExtraSection from './ExtraSection';
-import Footer from './Shared/Footer';
-import Navbar from './Shared/Navbar';
 import Personal from './Shared/Personal';
 
 const Home = () => {
