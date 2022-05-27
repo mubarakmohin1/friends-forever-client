@@ -3,7 +3,10 @@ import './App.css';
 import Home from './Pages/Home/Home';
 import Footer from './Pages/Home/Shared/Footer';
 import Navbar from './Pages/Home/Shared/Navbar';
+import Login from './Pages/Login/Login';
 import Photos from './Pages/Photos';
+import RequireAuth from './Pages/RequireAuth/RequireAuth';
+import SignUp from './SignUp/SignUp';
 
 
 function App() {
@@ -13,7 +16,9 @@ function App() {
      
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
-        <Route path='/photos' element={<Photos></Photos>}></Route>
+        <Route path='/photos' element={<RequireAuth><Photos></Photos></RequireAuth>}></Route>
+        <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/signup' element={<SignUp></SignUp>}></Route>
       </Routes>
       <Footer></Footer>
       
