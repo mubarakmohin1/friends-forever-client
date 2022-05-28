@@ -1,6 +1,7 @@
 import React from 'react';
 import photos4 from '../../Image/photos4.jpg'
 import './Admin.css'
+ 
 
 const Admin = () => {
      
@@ -21,7 +22,7 @@ const Admin = () => {
                     <h2>Mobile: <b>01853909088, 01726385196</b></h2>
 
                     <p className="py-6"> Chemistry is essential for meeting our basic needs of food, clothing, shelter,  health, energy, and clean air, water, and soil. Chemical technologies enrich   our quality of life in numerous ways by providing  new solutions to problems in health,  materials, and energy usage..</p>
-                    <button className='btn btn-secondary'>Click Me</button>
+                    
                 </div>
             </div>
         </div>
