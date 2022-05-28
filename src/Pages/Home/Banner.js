@@ -15,53 +15,53 @@ import photos30 from '../../Image/photos30.jpg'
 const Banner = () => {
     return (
         <div>
-            <div class="carousel w-full">
-                <div id="item1" class="carousel-item w-full">
-                    <img src= {photos1} class="w-full" />
+            <div className="carousel w-full">
+                <div id="item1" className="carousel-item w-full">
+                    <img src= {photos1} className="w-full" />
                 </div>
-                <div id="item2" class="carousel-item w-full">
-                    <img src= {photos2} class="w-full" />
+                <div id="item2" className="carousel-item w-full">
+                    <img src= {photos2} className="w-full" />
                 </div>
-                <div id="item3" class="carousel-item w-full">
-                    <img src= {photos9} class="w-full" />
+                <div id="item3" className="carousel-item w-full">
+                    <img src= {photos9} className="w-full" />
                 </div>
-                <div id="item4" class="carousel-item w-full">
-                    <img src= {photos10} class="w-full" />
+                <div id="item4" className="carousel-item w-full">
+                    <img src= {photos10} className="w-full" />
                 </div>
-                <div id="item5" class="carousel-item w-full">
-                    <img src= {photos7} class="w-full" />
+                <div id="item5" className="carousel-item w-full">
+                    <img src= {photos7} className="w-full" />
                 </div>
-                <div id="item6" class="carousel-item w-full">
-                    <img src= {photos29} class="w-full" />
+                <div id="item6" className="carousel-item w-full">
+                    <img src= {photos29} className="w-full" />
                 </div>
-                <div id="item7" class="carousel-item w-full">
-                    <img src= {photos26} class="w-full" />
+                <div id="item7" className="carousel-item w-full">
+                    <img src= {photos26} className="w-full" />
                 </div>
-                <div id="item8" class="carousel-item w-full">
-                    <img src= {photos40} class="w-full" />
+                <div id="item8" className="carousel-item w-full">
+                    <img src= {photos40} className="w-full" />
                 </div>
-                <div id="item9" class="carousel-item w-full">
-                    <img src= {photos37} class="w-full" />
+                <div id="item9" className="carousel-item w-full">
+                    <img src= {photos37} className="w-full" />
                 </div>
-                <div id="item10" class="carousel-item w-full">
-                    <img src= {photos32} class="w-full" />
+                <div id="item10" className="carousel-item w-full">
+                    <img src= {photos32} className="w-full" />
                 </div>
-                <div id="item11" class="carousel-item w-full">
-                    <img src= {photos30} class="w-full" />
+                <div id="item11" className="carousel-item w-full">
+                    <img src= {photos30} className="w-full" />
                 </div>
             </div>
-            <div class="flex justify-center w-full py-2 gap-2">
-                <a href="#item1" class="btn btn-xs">1</a>
-                <a href="#item2" class="btn btn-xs">2</a>
-                <a href="#item3" class="btn btn-xs">3</a>
-                <a href="#item4" class="btn btn-xs">4</a>
-                <a href="#item5" class="btn btn-xs">5</a>
-                <a href="#item6" class="btn btn-xs">6</a>
-                <a href="#item7" class="btn btn-xs">7</a>
-                <a href="#item8" class="btn btn-xs">8</a>
-                <a href="#item9" class="btn btn-xs">9</a>
-                <a href="#item10" class="btn btn-xs">10</a>
-                <a href="#item11" class="btn btn-xs">11</a>
+            <div className="flex justify-center w-full py-2 gap-2">
+                <a href="#item1" className="btn btn-xs">1</a>
+                <a href="#item2" className="btn btn-xs">2</a>
+                <a href="#item3" className="btn btn-xs">3</a>
+                <a href="#item4" className="btn btn-xs">4</a>
+                <a href="#item5" className="btn btn-xs">5</a>
+                <a href="#item6" className="btn btn-xs">6</a>
+                <a href="#item7" className="btn btn-xs">7</a>
+                <a href="#item8" className="btn btn-xs">8</a>
+                <a href="#item9" className="btn btn-xs">9</a>
+                <a href="#item10" className="btn btn-xs">10</a>
+                <a href="#item11" className="btn btn-xs">11</a>
             </div>
         </div>
     );
